@@ -19,5 +19,14 @@ submitNameButton.addEventListener('click', () => {
     }
   })
   
+// Start quiz event listener
+startButton.addEventListener('click', startGame)
+
+// Next question event listener
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++
+  setNextQuestion()
+})
+
   
   
