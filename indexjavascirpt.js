@@ -119,5 +119,10 @@ function setStatusClass(element, correct) {
     element.classList.remove('wrong')
   }
   
+// Event listener for viewing the score on a separate page
+viewScoreButton.addEventListener('click', () => {
+    window.location.href = 'score.html' // Redirect to score page
+  })
+
      
   
